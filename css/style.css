@@ -3,8 +3,8 @@
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.6;
+    font-family: sans-serif;
+    line-height: 1.7;
     background-color: #ffffff;
     text-align: justify;
 }
@@ -20,6 +20,7 @@ body {
 #navbar{
     height: 100%;
     border-right: solid 1px #4d4e53;
+    
 }
 
 #navbar h1 {
@@ -31,6 +32,7 @@ body {
 padding: 0;
 height: 100%;
 list-style: none;
+overflow: scroll;
 }
  
 #navbar ul li {
@@ -90,4 +92,6 @@ code{
 
 #main-doc header{
     font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
 }
